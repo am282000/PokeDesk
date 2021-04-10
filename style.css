@@ -17,3 +17,8 @@ body{
 h1{
   color: tomato;
 }
+@media (max-width: 480px) {
+  body {
+    background-size: initial;
+  }
+}
