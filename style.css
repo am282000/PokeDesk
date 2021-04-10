@@ -19,6 +19,6 @@ h1{
 }
 @media (max-width: 480px) {
   body {
-    background-size: initial;
+     background:black;
   }
 }
