@@ -10,7 +10,7 @@ $("#submit-button").on("click", function(event) {
       url: "https://api.pokemontcg.io/v1/cards?name=" + pokemon
     }).then(function(response) {
       for (var i = 0; i < response.cards.length; i++) {
-        var pokemonCard = $("<img class='pkmn-card'>");
+        var pokemonCard = $("<img class='pkmn-card jump'>");
         pokemonCard.attr("src", response.cards[i].imageUrlHiRes);
         $("#card-container").append(pokemonCard);
       }
